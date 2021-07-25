@@ -69,3 +69,23 @@
     padding-top:30px;
     padding-bottom:50px;
 }
+.portfolioHeader{
+    text-align:center;
+    padding:20px;
+}
+.picsA{
+    display:flex;
+    justify-content: center;
+    /* padding:20px; */
+}
+.a1, .a2, .a3, .a4{
+    padding:20px;
+}
+.picsB{
+    display:flex;
+    justify-content: center;
+}
+.b1, .b2, .b3, .b4{
+    padding:20px;
+}
+
