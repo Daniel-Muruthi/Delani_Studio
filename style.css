@@ -69,6 +69,30 @@
     padding-top:30px;
     padding-bottom:50px;
 }
+.designB{
+    display:none;
+    background-color:green;
+}
+.designA h1{
+    display:none;
+}
+.devB{
+    display:none;
+}
+.prodB{
+    display:none;
+    border:2px solid blue;
+    width:100%;
+    justify-content: space-between;
+}
+.design,.development, .productMan{
+    display:flex;
+    justify-content: space-around;
+    padding:10px;
+    width:33%;
+    text-align:center;
+    font-weight:bolder;
+}
 .portfolioHeader{
     text-align:center;
     padding:20px;
