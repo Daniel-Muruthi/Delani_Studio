@@ -88,8 +88,44 @@
 .b1, .b2, .b3, .b4{
     padding:20px;
 }
+.fiveText{
+    position:absolute;
+    transform:translate(100%, -150%);
+}
 .contactUs img{
     width:100%;
     padding-top:40px;
+}
+.contactHeader{
+    text-align:center;
+}
+.feedback{
+    margin-left:auto;
+    margin-right:auto;
+}
+.nameEmail{
+    display:flex;
+    justify-content: center;
+}
+.message{
+    display:flex;
+    justify-content: center;
+    border:2px solid green;
+}
+.name, .email, .message{
+    padding:20px;
+}
+.socialogos{
+    display:flex;
+    justify-content:center;
+    padding-top:40px;
+}
+.socialText{
+    text-align:center;
+    padding:40px;
+    font-size:larger;
+}
+.socialogos>div{
+    padding:20px;
 }
 
