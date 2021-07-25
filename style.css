@@ -41,8 +41,31 @@
 
 }
 .threeBody{
+    position:absolute;
     text-align:center;
     border:2px solid green;
-    transform:translate(0%, -200%);
+    transform:translate(13%, -180%);
     color:white;
+    font-size:x-large;
+    display:flex;
+    justify-content: center;
+}
+.threeText{
+    max-width:100%;
+}
+.page4{
+    position:relative;
+    border:2px solid yellow;
+}
+.wwdText{
+    text-align:center;
+}
+.wwdPics{
+    display:flex;
+    justify-content:space-around;
+    padding-bottom:40px;
+}
+.wwdText h1{
+    padding-top:30px;
+    padding-bottom:50px;
 }
