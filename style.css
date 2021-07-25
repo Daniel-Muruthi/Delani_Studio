@@ -89,7 +89,8 @@
     padding:20px;
 }
 .fiveText{
-    transform:translate(0%, -150%)
+    position:absolute;
+    transform:translate(100%, -150%);
 }
 .contactUs img{
     width:100%;
@@ -112,6 +113,19 @@
     border:2px solid green;
 }
 .name, .email, .message{
+    padding:20px;
+}
+.socialogos{
+    display:flex;
+    justify-content:center;
+    padding-top:40px;
+}
+.socialText{
+    text-align:center;
+    padding:40px;
+    font-size:larger;
+}
+.socialogos>div{
     padding:20px;
 }
 
