@@ -1,0 +1,95 @@
+.page1 img{
+    width:100%;
+    height:max-content;
+}
+.oneText{
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:center;
+    color:white;
+}
+.d h1{
+    border: 2px solid white;
+    width:max-content;
+    padding:20px;
+    border-radius:50%;
+}
+.welcome h1{
+    padding:20px;
+    font-size:xx-large;
+}
+.mouseIcon img{
+    width:fit-content;
+    height:fit-content;
+    /* transform:translate(-50%, -50%); */
+}
+.aboutUs{
+    border:2px solid gold;
+    padding:40px;
+    text-align:center;
+}
+.aboutHeader{
+    border:2px solid blue;
+}
+.page3{
+
+}
+.threeBody{
+    position:absolute;
+    text-align:center;
+    border:2px solid green;
+    transform:translate(13%, -180%);
+    color:white;
+    font-size:x-large;
+    display:flex;
+    justify-content: center;
+}
+.threeText{
+    max-width:100%;
+}
+.page4{
+    position:relative;
+    border:2px solid yellow;
+}
+.wwdText{
+    text-align:center;
+}
+.wwdPics{
+    display:flex;
+    justify-content:space-around;
+    padding-bottom:40px;
+}
+.wwdText h1{
+    padding-top:30px;
+    padding-bottom:50px;
+}
+.portfolioHeader{
+    text-align:center;
+    padding:20px;
+}
+.picsA{
+    display:flex;
+    justify-content: center;
+    /* padding:20px; */
+}
+.a1, .a2, .a3, .a4{
+    padding:20px;
+}
+.picsB{
+    display:flex;
+    justify-content: center;
+}
+.b1, .b2, .b3, .b4{
+    padding:20px;
+}
+.contactUs img{
+    width:100%;
+    padding-top:40px;
+}
+
