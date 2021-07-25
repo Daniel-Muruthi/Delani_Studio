@@ -97,7 +97,12 @@
     text-align:center;
     padding:20px;
 }
+.portPics{
+    position:relative;
+}
 .picsA{
+    position:relative;
+    width:100%;
     display:flex;
     justify-content: center;
     /* padding:20px; */
@@ -151,5 +156,26 @@
 }
 .socialogos>div{
     padding:20px;
+}
+/* .a1{
+    display:flex;
+    justify-content:center;
+} */
+.a1>img{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.a1{
+    position:relative;
+}
+.a1p >p{
+ position:absolute;
+ width:max-content;
+ height:max-content;
+ padding:20px;
+ border:2px solid brown;
+ /* transform:translate(0%, -300%); */
+ /* color:; */
 }
 
