@@ -37,6 +37,12 @@
 .aboutHeader{
     border:2px solid blue;
 }
-.page3 img{
-    width:100%;
+.page3{
+
+}
+.threeBody{
+    text-align:center;
+    border:2px solid green;
+    transform:translate(0%, -200%);
+    color:white;
 }
