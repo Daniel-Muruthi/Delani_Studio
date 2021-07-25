@@ -1,30 +1,38 @@
 $(document).ready(function(){
     $(".designA").click(function(){
         $(".designA").hide();
-        $(".designB").toggle("fast");
-        $(".designB").click(function(){
-            $(".designB").hide();
-            $(".designA").toggle("fast");
-        })
+        $(".designB").toggle();
     })
 })
 $(document).ready(function(){
-    $(".devA").click(function(){
-        $(".devA").hide();
-        $(".devB").toggle("fast");
-        $(".devB").click(function(){
-            $(".devB").hide();
-            $(".devA").toggle("fast");
-        })
+    $(".designB").click(function(){
+        $(".designB").hide();
+        $(".designA").toggle();
     })
 })
+$(document).ready(function(){
+    $("#devA").click(function(){
+        $("#devA").hide();
+        $("#devB").toggle();
+        })
+    }
+)
+$(document).ready(function(){
+    $("#devB").click(function(){
+        $("#devB").hide();
+        $("#devA").toggle();
+        })
+    }
+)
 $(document).ready(function(){
     $(".prodA").click(function(){
         $(".prodA").hide();
-        $(".prodB").toggle("fast");
-        $(".prodB").click(function(){
-            $(".prodB").hide();
-            $(".prodA").toggle("fast");
-        })
+        $(".prodB").toggle();
+    })
+})
+$(document).ready(function(){
+    $(".prodB").click(function(){
+        $(".prodB").hide();
+        $(".prodA").toggle();
     })
 })
