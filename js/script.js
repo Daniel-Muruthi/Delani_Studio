@@ -36,3 +36,23 @@ $(document).ready(function(){
         $(".prodA").toggle();
     })
 })
+//portfolio
+
+// let hoverBird=function(){
+//     $(".a1>img").hover(function(){
+//         $(".alp").show();
+//     })
+// }
+// hoverBird();
+let email = document.querySelector(".email"). textContent;
+let message = document.querySelector(".message").textContent;
+
+let nameInput= function(){
+    document.querySelector("johnDoe").click(function(){
+    let identity;
+    document.getElementById("johnDoe").value=identity;
+    console.log(typeof(identity));
+    alert(`${identity} your message has been received. Will respond soon`)
+    document.querySelector("contact").reset();
+})}
+nameInput();

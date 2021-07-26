@@ -30,12 +30,12 @@
     /* transform:translate(-50%, -50%); */
 }
 .aboutUs{
-    border:2px solid gold;
+    /* border:2px solid gold; */
     padding:40px;
     text-align:center;
 }
 .aboutHeader{
-    border:2px solid blue;
+    /* border:2px solid blue; */
 }
 .page3{
 
@@ -43,7 +43,7 @@
 .threeBody{
     position:absolute;
     text-align:center;
-    border:2px solid green;
+    /* border:2px solid green; */
     transform:translate(13%, -180%);
     color:white;
     font-size:x-large;
@@ -55,7 +55,7 @@
 }
 .page4{
     position:relative;
-    border:2px solid yellow;
+    /* border:2px solid yellow; */
 }
 .wwdText{
     text-align:center;
@@ -71,7 +71,7 @@
 }
 .designB{
     display:none;
-    background-color:green;
+    /* background-color:green; */
 }
 .designA h1{
     display:none;
@@ -81,7 +81,7 @@
 }
 .prodB{
     display:none;
-    border:2px solid blue;
+    /* border:2px solid blue; */
     width:100%;
     justify-content: space-between;
 }
@@ -139,7 +139,7 @@
 .message{
     display:flex;
     justify-content: center;
-    border:2px solid green;
+    /* border:2px solid green; */
 }
 .name, .email, .message{
     padding:20px;
@@ -163,19 +163,26 @@
 } */
 .a1>img{
     position:relative;
-    width:100%;
-    height:100%;
+    /* width:100%; */
+    /* height:100%; */
 }
 .a1{
     position:relative;
 }
-.a1p >p{
- position:absolute;
- width:max-content;
- height:max-content;
- padding:20px;
- border:2px solid brown;
- /* transform:translate(0%, -300%); */
- /* color:; */
+.a1p{
+    display:none;
+    position:absolute;
+    width:80%;
+    height:65%;
+    border:2px solid white;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size:xx-large;
+    font-style: italic;
 }
-
+.submitBtn{
+    display:flex;
+    justify-content: center;
+}
