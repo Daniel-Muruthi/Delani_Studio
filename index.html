@@ -134,14 +134,20 @@
                                 <div class="a1pBody">
                                     <div class="a1p">
                                         <p>
-                                            BAILEY WONGER
+                                            BAILEY<br> WONGER
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="a2">
                                 <img src="./assets/portfolio/work3.jpg">
-                                <div></div>
+                                <div class="a1pBody2">
+                                    <div class="a1p2">
+                                        <p>
+                                            BAILEY<br> WONGER
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="a3">
                                 <img src="./assets/portfolio/work2.jpg">
@@ -174,30 +180,38 @@
                 </div>
             </div>
             <div class="page6">
-                <div class="contactUs">
-                    <img src="./assets/backgrounds/c_image.jpg">
-                    <div class="fiveText">
-                        <div class="contactHeader">
-                            <h1>
-                                CONTACT US
-                            </h1>
-                        </div>
-                        <div class="feedback">
-                           <div class="nameEmail">
-                               <div class="name">
-                                   <input placeholder="name ..." value="name">
+                <form name="contact">
+                    <div class="contactUs">
+                        <img src="./assets/backgrounds/c_image.jpg">
+                        <div class="fiveText">
+                            <div class="contactHeader">
+                                <h1>
+                                    CONTACT US
+                                </h1>
+                            </div>
+                            <div class="feedback">
+                               <div class="nameEmail">
+                                   <div class="name" id="name">
+                                       <input id="johnDoe" 
+                                       class="johnDoe" type="text" placeholder="Your name" required>
+                                   </div>
+                                   <div class="email">
+                                       <input placeholder="email address" required>
+                                   </div>
                                </div>
-                               <div class="email">
-                                   <input placeholder="email address" value="email">
+                               <div class="message">
+                                   <textarea name= "text1" rows="5" cols="50" required>
+                                   </textarea>
                                </div>
-                           </div>
-                           <div class="message">
-                               <textarea name= "text1" rows="5" cols="50">Your Message Here...
-                               </textarea>
-                           </div>
+                               <div class="submitBtn">
+                                   <button type="submit">
+                                       Submit
+                                   </button>
+                               </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
             <div class="page6">
                 <div class="socials">
@@ -243,8 +257,8 @@
                     </div>
                 </div>
             </div>
-            <script src="./js/script.js"></script>
         </div>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
