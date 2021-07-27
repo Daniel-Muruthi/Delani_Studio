@@ -6,7 +6,7 @@
 
 ## Description
 
-Contains the Welcome, About Us, Services, What We Do, Portfolio, the contact us page and social footer
+Contains the Welcome, About Us, Services, What We Do, Portfolio, the contact us page and social footer of the project website, Delani Studio
 
 ## Setup/Installation Requirements
 
@@ -16,17 +16,18 @@ Contains the Welcome, About Us, Services, What We Do, Portfolio, the contact us 
 - Bootstrap
 -jQuery
 
-## Known Bugs
+## known bugs
 
-
+No backend/database to store messages inputed in the contact us section
 
 ## Technologies Used
 
-This project has been written using html, css, javascript, jQuery and bootstrap languages
+This project has been written using html, css and javascript plus (jQuery and bootstrap) languages
 
 ## Support and contact details
 
 email: adinomuruthi1@gmail.com
+GitHub: Daniel-Muruthi (https://github.com/Daniel-Muruthi)
 
 ### License
 
