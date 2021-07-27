@@ -1,5 +1,9 @@
 body{
     font-family:'Times New Roman', Times, serif !important;
+    width:100%;
+    overflow-x:hidden;
+    margin-left:auto;
+    margin-right:auto;
 }
 .page1 img{
     width:100%;
@@ -104,6 +108,9 @@ body{
     text-align:center;
     font-weight:bolder;
 }
+.page5{
+    border:2px solid yellow;
+}
 .portfolioHeader{
     text-align:center;
     padding:20px;
@@ -207,6 +214,7 @@ body{
     display:flex;
     justify-content: center;
 }
+
 .socialogos > div > img:hover{
     cursor:pointer;
     transform:scale(1.5);
