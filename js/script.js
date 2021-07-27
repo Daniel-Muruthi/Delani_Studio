@@ -1,3 +1,36 @@
+function getName(){
+    var jina = function(){
+        var identity = document.getElementById("johnDoe").value;
+        var nameTag=identity;
+        var emailScript =/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+        var email= document.getElementById("email").value;
+        if(nameTag=="" || nameTag==" "){
+            alert(`Please enter your name`);
+            document.querySelector("#johnDoe").style.border="4px solid red";
+        }
+        if(email==false || email==null){
+            alert(`${identity} please add your email address.`); 
+            document.getElementById("email").style.border="4px solid red";
+        }
+        if(email.match(emailScript)==false) {
+            document.getElementById("email").style.border="4px solid red";
+            alert(`${identity} your email is Not Valid`);
+            
+        }
+        if (email.match(emailScript) && nameTag !="" && nameTag !=" "){
+            document.querySelector("#email").style.border="4px solid green";
+            alert(`${nameTag} we have received your message. Thank you for reaching out to us.` ,false); 
+        }
+        if(nameTag != "" && nameTage !=" " && email.match(emailScript)){
+            alert(`${nameTag} we have received your message. Thank you for reaching out to us.` ,false);      
+        }
+        // document.querySelector('form[name="contact"]').reset();
+
+    }
+    jina();
+}
+
+
 $(document).ready(function(){
     $(".designA").click(function(){
         $(".designA").hide();
@@ -44,15 +77,18 @@ $(document).ready(function(){
 //     })
 // }
 // hoverBird();
-let email = document.querySelector(".email"). textContent;
-let message = document.querySelector(".message").textContent;
 
-let nameInput= function(){
-    document.querySelector("johnDoe").click(function(){
-    let identity;
-    document.getElementById("johnDoe").value=identity;
-    console.log(typeof(identity));
-    alert(`${identity} your message has been received. Will respond soon`)
-    document.querySelector("contact").reset();
-})}
-nameInput();
+
+
+
+
+// let email = document.querySelector(".email"). textContent;
+// let message = document.querySelector(".message").textContent;
+
+// function getName(){
+//     var identity = document.getElementById("johnDoe").value;
+//     var nameTag=identity;
+//     alert(`${nameTag} we have received your message. Thank you for reaching out to us.`);
+//     document.querySelector("contact").reset();
+// }
+// getName();
