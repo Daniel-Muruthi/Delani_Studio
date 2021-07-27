@@ -5,10 +5,12 @@ body{
     margin-left:auto;
     margin-right:auto;
 }
+/*adding body styles*/
 .page1 img{
     width:100%;
     height:max-content;
 }
+/*adding page1/section 1 styles*/
 .oneText{
     position:absolute;
     display:flex;
@@ -38,6 +40,7 @@ body{
     height:fit-content;
     transform:translate(0%, -200%);
 }
+/*adding About us section styles*/
 .aboutUs{
     /* border:2px solid gold; */
     padding:40px;
@@ -51,9 +54,7 @@ body{
 .aboutTitle{
     font-size:xx-large;
 }
-.page3{
-
-}
+/*adding page 3 styles*/
 .threeBody{
     position:absolute;
     text-align:center;
@@ -68,6 +69,7 @@ body{
 .threeText{
     max-width:100%;
 }
+/*adding page 4 styles*/
 .page4{
     position:relative;
     /* border:2px solid yellow; */
@@ -108,6 +110,7 @@ body{
     text-align:center;
     font-weight:bolder;
 }
+/*adding page 5 styles*/
 .page5{
     /* border:2px solid yellow; */
 }
@@ -135,6 +138,7 @@ body{
 .b1, .b2, .b3, .b4{
     padding:20px;
 }
+/*adding page 6 styles*/
 .sixBody{
     display:flex;
     justify-content: center;
@@ -168,6 +172,7 @@ body{
 .name, .email, .message{
     padding:20px;
 }
+/*adding footer section styles*/
 .socialogos{
     display:flex;
     justify-content:center;
