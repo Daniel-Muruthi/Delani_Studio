@@ -1,5 +1,6 @@
 function getName(){
     var jina = function(){
+        var message= document.getElementById("text1").value;
         var identity = document.getElementById("johnDoe").value;
         var nameTag=identity;
         var emailScript =/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
@@ -8,21 +9,23 @@ function getName(){
             alert(`Please enter your name`);
             document.querySelector("#johnDoe").style.border="4px solid red";
         }
-        if(email==false || email==null){
+        else if(email==false || email==null){
             alert(`${identity} please add your email address.`); 
             document.getElementById("email").style.border="4px solid red";
         }
-        if(email.match(emailScript)==false) {
-            document.getElementById("email").style.border="4px solid red";
+        else if(email.match(emailScript)==false || email.match(emailScript)==null) {
             alert(`${identity} your email is Not Valid`);
+            document.getElementById("email").style.border="4px solid red";
+            document.getElementById("email").value="";
             
         }
-        if (email.match(emailScript) && nameTag !="" && nameTag !=" "){
+        else if (message==""|| message==" "){
+            alert(`${identity} please enter a message to relay`);
+            document.querySelector("#text1").style.border="4px solid red";
+        }
+        else if (email.match(emailScript) && message !="" && message !=" " && nameTag !="" && nameTag !=" "){
             document.querySelector("#email").style.border="4px solid green";
             alert(`${nameTag} we have received your message. Thank you for reaching out to us.` ,false); 
-        }
-        if(nameTag != "" && nameTage !=" " && email.match(emailScript)){
-            alert(`${nameTag} we have received your message. Thank you for reaching out to us.` ,false);      
         }
         // document.querySelector('form[name="contact"]').reset();
 
