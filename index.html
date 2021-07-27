@@ -16,16 +16,21 @@
                 <img src="./assets/backgrounds/h_img.jpg" width="100%">
                 <div class="oneText">
                     <div class="d">
-                        <h1>D</h1>
+                        <img src="./assets/logo/logo.png">
                     </div>
                     <div class="welcome">
                         <h1>
-                            Welcome<br><br> To Delani Studio
+                            <strong>Welcome</strong>
+                        </h1>
+                        <h1>
+                            <strong>To Delani Studio</strong>
                         </h1>
                         <h5>
                             AMAZING PEOPLE ARE MAKING DESIGNS IN A FUN ENVIRONMENT
                         </h4>
                     </div>
+                </div>
+                <div class="mouseBody">
                     <div class="mouseIcon">
                         <img src="./assets/mouse_click.png" height="100px" width="50px">
                     </div>
@@ -34,8 +39,8 @@
             <div class="page2">
                 <div class="aboutUs">
                     <div class="aboutHeader">
-                        <p>
-                            ABOUT US
+                        <p class="aboutTitle">
+                            <strong>ABOUT US</strong>
                         </p>
                         <p>
                             When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are intergrated, interactive and agile.<br>
@@ -103,7 +108,7 @@
                             </div>
                         </div>
                         <div class="productMan">
-                            <div class="prodA">
+                            <div type="button" class="prodA">
                                 <img src="./assets/services_icons/product_icon.png">
                                 <p>
                                     Product Management
@@ -216,34 +221,38 @@
                 </div>
             </div>
             <div class="page6">
-                <form name="contact">
+                <form name="contact" >
                     <div class="contactUs">
                         <img src="./assets/backgrounds/c_image.jpg">
-                        <div class="fiveText">
-                            <div class="contactHeader">
-                                <h1>
-                                    CONTACT US
-                                </h1>
-                            </div>
-                            <div class="feedback">
-                               <div class="nameEmail">
-                                   <div class="name" id="name">
-                                       <input id="johnDoe" 
-                                       class="johnDoe" type="text" placeholder="Your name" required>
+                        <div class ="sixBody">
+                            <div class="sixText">
+                                <div class="contactHeader">
+                                    <h1>
+                                        <strong>
+                                            CONTACT US
+                                        </strong>
+                                    </h1>
+                                </div>
+                                <div class="feedback">
+                                   <div class="nameEmail">
+                                       <div class="name" id="name">
+                                           <input id="johnDoe" name="tag"
+                                           class="johnDoe" type="text" placeholder="Your name" required>
+                                       </div>
+                                       <div class="email">
+                                           <input id="email"  placeholder="email address" required>
+                                       </div>
                                    </div>
-                                   <div class="email">
-                                       <input placeholder="email address" required>
+                                   <div class="message">
+                                       <textarea name= "text1" rows="5" cols="50" required>
+                                       </textarea>
                                    </div>
-                               </div>
-                               <div class="message">
-                                   <textarea name= "text1" rows="5" cols="50" required>
-                                   </textarea>
-                               </div>
-                               <div class="submitBtn">
-                                   <button type="submit">
-                                       Submit
-                                   </button>
-                               </div>
+                                   <div id="submitBtn" class="submitBtn">
+                                       <button id="submit" type="submit" onclick="getName()">
+                                           Submit
+                                       </button>
+                                   </div>
+                                </div>
                             </div>
                         </div>
                     </div>
