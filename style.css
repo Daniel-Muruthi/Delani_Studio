@@ -207,3 +207,7 @@ body{
     display:flex;
     justify-content: center;
 }
+.socialogos > div > img:hover{
+    cursor:pointer;
+    transform:scale(1.5);
+}
